@@ -12,7 +12,12 @@ import ReactDOM from "react-dom";
 
 class HelloWorld extends React.Component{
 	render(){
-		return (<div>Hello World From React</div>)
+		function printSomething(){
+			return "Hello From Function";
+		}
+		var title = "Hello World from react : JS variable."
+		// return (<div>Hello World From React</div>)
+		return (<div>{printSomething()}</div>);
 	}
 }
 
