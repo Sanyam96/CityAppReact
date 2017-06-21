@@ -1,6 +1,6 @@
 import React from "react";
 
-class Thumbnail extends React.Component{
+export default class Thumbnail extends React.Component{
 	render(){
 		var breathe = {
 			marginLeft = '20px',
