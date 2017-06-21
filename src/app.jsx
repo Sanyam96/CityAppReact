@@ -1,11 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Thumbnail from "./components/thumbnail.jsx";
+import MainBox from "./components/main-box.jsx";
 
-class App extends React.Component{
+
+
+export default class App extends React.Component{
 
 	render(){
 		return (
-			<div>
+			<div className = "jumbotron row">
+				<div className = "col-md-4"></div>
+				<div className = "col-md-4">
+				</div>
 			</div>
 		);
 	}
